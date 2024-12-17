@@ -1,0 +1,11 @@
+@media (max-width: 400px ) {
+    .card-content {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .card-content .img-pr-code {
+        width: 277px;
+        height: 277px;
+    }
+}

@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=League+Spartan:wght@100..900&display=swap');
+
+html {
+    font-size: 62.5%;
+    font-family: "League Spartan", sans-serif;
+    background: url('../images/bg-pattern-top-desktop.svg') no-repeat;
+    
+    
+}
+body {
+    background: url('../images/bg-pattern-bottom-desktop.svg') no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.section-information{grid-area: section-information;}
+.conteiner-comment{grid-area:  conteiner-comment;}
+
+
+
+.grid-conteiner {
+    display: grid;
+    grid-template-areas:
+     "section-information section-information section-information"
+     "conteiner-comment conteiner-comment conteiner-comment";
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+
+    
+    max-width: 1233px;
+    max-height: 596px;
+    
+}
+
+.grid-conteiner .section-information {
+    display: flex;
+}
+
+
+
+.grid-conteiner .section-information .products-information h1{
+    width: 490px;
+    color: hsl(300, 43%, 22%);
+    font-size: 6.3rem;
+    word-spacing: -0.1rem;
+    letter-spacing: -0.2rem;
+    line-height: 5.5rem;
+}
+
+.grid-conteiner .section-information .products-information p {
+    margin-top: 5%;
+    max-width: 456px;
+    font-size: 2.2rem;
+    color: hsl(303, 10%, 53%);
+    line-height: 2.7rem;
+    letter-spacing: -0.1rem;
+    text-wrap: pretty;
+    margin-bottom: 6%;
+}
+.grid-conteiner .section-information .reviews-products {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    margin-top: 34px;
+    gap: 20px;
+}
+
+.grid-conteiner .reviews-products .reviews-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #f4e8f7;
+    color: hsl(300, 43%, 22%);
+    font-size: 1.9rem;
+    font-weight: 700;
+    width: 493px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 0 35px;
+}
+
+.grid-conteiner .reviews-products .reviews-star .star {
+    display: flex;
+    gap: 10px;
+    width: 19px;
+}
+.grid-conteiner .reviews-products .reviews-star span {
+    margin-left: 27%;
+} 
+
+.grid-conteiner .reviews-products .position1 {
+    margin-right: 14%;
+}
+
+.grid-conteiner .reviews-products .position2 {
+    margin-right: 7%;
+}
+
+.grid-conteiner .conteiner-comment {
+    display: flex;
+    gap: 2.7%;
+}
+.grid-conteiner .conteiner-comment .card-comment01 {
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    max-width: 391px;
+    height: 260px;
+    border-radius: 10px;
+}
+
+.grid-conteiner .conteiner-comment .card-comment01 .user-comment01 img {
+    max-width: 45px;
+    border-radius: 50%;
+}
+.grid-conteiner .conteiner-comment .user-comment01 {
+    margin: 11% 0 0 10%;
+    display: flex;
+    align-items: center;
+    gap: 8%;
+}
+.grid-conteiner .conteiner-comment .user-comment01 p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-top: 2%;
+    
+}
+
+.grid-conteiner .conteiner-comment .user-comment01 span {
+    color: hsl(333, 80%, 67%);
+    margin-top: 4%;
+    font-weight: 400;
+}
+
+.grid-conteiner  .card-comment01 >p {
+    text-wrap: pretty;
+    font-size: 1.8rem;
+    margin-top: 8%;
+    line-height: 2.4rem;
+    
+    padding: 0px 37px;
+    
+}
+
+.grid-conteiner .conteiner-comment .card-comment02 {
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    max-width: 391px;
+    height: 260px;
+    margin-top: 1.3%;
+    border-radius: 10px;
+    
+}
+
+.grid-conteiner .conteiner-comment .card-comment02 .user-comment02 img {
+    max-width: 45px;
+    border-radius: 50%;
+}
+.grid-conteiner .conteiner-comment .card-comment02 .user-comment02 {
+    margin: 11% 0 0 10%;
+    display: flex;
+    align-items: center;
+    gap: 8%;
+}
+.grid-conteiner .conteiner-comment .card-comment02 .user-comment02 p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-top: 2%;
+    
+}
+
+.grid-conteiner .conteiner-comment .card-comment02 .user-comment02 span {
+    color: hsl(333, 80%, 67%);
+    margin-top: 4%;
+    font-weight: 400;
+}
+
+.grid-conteiner .card-comment02 >p {
+    text-wrap: pretty;
+    font-size: 1.9rem;
+    margin-top: 8%;
+    line-height: 2.4rem;
+    padding: 0px 37px;
+    
+}
+
+.grid-conteiner .conteiner-comment .card-comment03 {
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    max-width: 391px;
+    height: 260px;
+    margin-top: 2.8%;
+    border-radius: 10px;
+}
+
+.grid-conteiner .conteiner-comment .card-comment03 .user-comment03 img {
+    max-width: 45px;
+    border-radius: 50%;
+}
+.grid-conteiner .conteiner-comment .card-comment03 .user-comment03 {
+    margin: 11% 0 0 10%;
+    display: flex;
+    align-items: center;
+    gap: 8%;
+}
+.grid-conteiner .conteiner-comment .card-comment03 .user-comment03 p{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-top: 2%;
+    
+}
+
+.grid-conteiner .conteiner-comment .card-comment03 .user-comment03 span {
+    color: hsl(333, 80%, 67%);
+    margin-top: 4%;
+    font-weight: 400;
+}
+
+.grid-conteiner .card-comment03 >p {
+    text-wrap: pretty;
+    font-size: 1.9rem;
+    margin-top: 8%;
+    line-height: 2.4rem;
+    padding: 0px 39px;
+    
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    display: none;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

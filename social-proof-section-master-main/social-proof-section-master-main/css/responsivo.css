@@ -1,0 +1,116 @@
+@media (max-width: 1190px) {
+    body {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+   
+
+    .grid-conteiner .section-information {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    
+
+    .grid-conteiner .section-information .products-information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-conteiner .section-information .products-information h1 {
+        font-size: 4.2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 267px;
+        word-spacing: -0.1rem;
+        letter-spacing: -0.2rem;
+        line-height: 3.5rem;
+    }
+
+    .grid-conteiner .section-information .products-information p {
+        text-align: center;
+        width: 396px;
+        margin-top: 7%;
+    }
+
+    .grid-conteiner .section-information .reviews-products {
+        justify-content: center;
+        align-items: center;
+        margin-top: 6%;
+    }
+
+    .grid-conteiner .section-information .reviews-products .reviews-star {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 354px;
+        height: 85px;
+    }
+
+    
+
+    .grid-conteiner .reviews-products .reviews-star .star {
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+
+    .grid-conteiner .reviews-products .reviews-star span {
+        margin-left: 0%;
+    } 
+    
+    .grid-conteiner .reviews-products .position1 {
+        margin-right: 0%;
+    }
+    
+    .grid-conteiner .reviews-products .position2 {
+        margin-right: 0%;
+    }
+
+    .grid-conteiner .conteiner-comment  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid-conteiner .card-comment01 {
+        width: 351px;
+        height: 260px;
+        margin-top: 13%;
+    }
+
+    .grid-conteiner .card-comment02 {
+        width: 351px;
+        height: 260px;
+        margin-top: 5%;
+    }
+
+    .grid-conteiner .card-comment03 {
+        width: 351px;
+        height: 260px;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-conteiner {
+        margin-top: -20%;
+    }
+}
+
+@media (max-width: 400px) {
+    .grid-conteiner {
+        margin-top: 5%;
+        width: 370px;
+    }
+}
